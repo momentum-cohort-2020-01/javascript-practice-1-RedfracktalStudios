@@ -34,8 +34,8 @@ isEven(10)
 // Fahrenheit temperature as an argument and returns the
 // temperature in Celsius.
 // let fahrenheit = 32
-function fahrenheitToCelsius(temperature) {
-    return 0 * % 5 + fahrenheit
+function fahrenheitToCelsius(fahrenheit) {
+    return (fahrenheit - 32) * 5 / 9;
 }
 fahrenheit(32)
 
@@ -43,17 +43,26 @@ fahrenheit(32)
 // Celsius temperature as an argument and returns the
 // temperature in Fahrenheit.
 
+function celsiusToFahrenheit(celsius) {
+    return ((celsius * 9 / 5) + 32);
+}
+celsius(0)
 // 7. Create a function called fahrenheitToKelvin that takes a
 // Fahrenheit temperature as an argument and returns the
 // temperature in Kelvin. This function must use your previous
 // fahrenheitToCelsius function.
 // Absolute zero (0 K) is equivalent to −273.15 C.
 // 1 degree Kelvin equals 1 degree Celsius.
+function fahrenheitToKelvin(celsius)
+
 
 // 8. Create a function called lesser that takes two numbers as
 // arguments and returns the lesser of them. This function should
 // use an if/else statement.
-
+function lesser(number) {
+    if ((number > 3 && number))
+}
+else { }
 // 9. Create a function called multigreeting that takes a name
 // and a language code and returns a version of "Hello, <name>!"
 // in the specified language. The supported languages and their
@@ -65,7 +74,9 @@ fahrenheit(32)
 // eo - Saluton, <name>!
 //
 // If any other language code is used, return nothing.
+function multigreeting(name) {
 
+}
 // 10. The greatest common divisor (https://en.wikipedia.org/wiki/Greatest_common_divisor)
 // is the largest integer that, given two other integers, can be divided into them. For
 // example, the greatest common divisor of 24 and 81 is 3. The greatest common divisor of
@@ -92,3 +103,6 @@ fahrenheit(32)
 
 // Write a function called gcd that takes two arguments and returns the greatest common
 // divisor using the instructions above.
+function gcd() {
+
+}
